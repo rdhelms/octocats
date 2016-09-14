@@ -47,6 +47,10 @@ ul[class="authors"] li, ul[class="authors"] img {
   width: 30px;
 }
 
+.octonumber:before {
+  content: "#";
+}
+
 cite {
   color: gray;
   font-family: arial, sans-serif;
