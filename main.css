@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+li[class="octocat"] {
+  float: left;
+  height: 200px;
+  width: 200px;
+  border: 1px solid lightgray;
+  margin: 0 5px 0 5px;
+}
+
+img {
+  height: 198px;
+  width: 198px;
+}
+
+ul[class="authors"] {
+  float: right;
+  margin-left: 5px;
+}
+
+ul[class="authors"] li, ul[class="authors"] img {
+  height: 15px;
+  width: 15px;
+  float: right;
+  border-radius: 3px;
+}
+
+.octonumber {
+  font-family: arial, sans-serif;
+  color: lightgray;
+  font-size: 10px;
+  float: left;
+  margin: 0;
+  padding: 6px 0 10px 0;
+  width: 30px;
+}
+
+cite {
+  color: gray;
+  font-family: arial, sans-serif;
+  font-style: normal;
+  float: right;
+  font-size: 10px;
+  margin: 0;
+  padding: 6px 0 10px 0;
+}
+
+.triangle-down {
+    position: absolute;
+    margin: -3px 0 0 186px;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid lightgray;
+}
+
+footer {
+  height: 27px;
+  border-bottom: 1px solid lightgray;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+  font-style: normal;
+  font-family: arial;
+  text-decoration: none;
+}
